@@ -30,11 +30,11 @@ Motivation: As a junior developer,
 ---
 
   ## 💡 Interests
-    - 🎮 Game Development
-    - 🧠 AI & Machine Learning
-    - 🌐 Open Source Contributions
-    - 📱 Mobile App Development
-    - 📊 Data Visualization
+   - 🎮 Game Development
+   - 🧠 AI & Machine Learning
+   - 🌐 Open Source Contributions
+   - 📱 Mobile App Development
+   - 📊 Data Visualization
 
 ---
 
