@@ -45,7 +45,7 @@ Motivation: As a junior developer,
 
 ## 📫 Let's Connect!
 - [**GitHub**](https://github.com/Boolean-Coder)
-- [**LinkedIn**](#)
+- [**LinkedIn**](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile)
 - [**Portfolio**](#)
 
 ---
