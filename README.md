@@ -12,12 +12,12 @@ Motivation: As a junior developer,
 
 ## 🔧 Technologies & Tools
 
-| Category     | Technologies & Tools                     |          ## 💡 Interests
-|--------------|------------------------------------------|          - 🎮 Game Development
-| **Languages**| Python, C#                               |          - 🧠 AI & Machine Learning
-| **Frontend** | HTML, CSS, JS                            |          - 🌐 Open Source Contributions
-| **Backend**  | Python, C#                               |          - 📱 Mobile App Development
-| **Databases**| MySQL                                    |          - 📊 Data Visualization 
+| Category     | Technologies & Tools                     |
+|--------------|------------------------------------------|
+| **Languages**| Python, C#                               |
+| **Frontend** | HTML, CSS, JS                            |
+| **Backend**  | Python, C#                               |
+| **Databases**| MySQL                                    |
 | **DevOps**   | Docker (incoming), GitHub Actions, AWS   |
 | **Other**    | Git                                      |
 ## Beispiel für farbigen Text und Hintergrund
@@ -29,7 +29,12 @@ Motivation: As a junior developer,
 
 ---
 
-
+  ## 💡 Interests
+    - 🎮 Game Development
+    - 🧠 AI & Machine Learning
+    - 🌐 Open Source Contributions
+    - 📱 Mobile App Development
+    - 📊 Data Visualization
 
 ---
 
