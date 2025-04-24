@@ -11,7 +11,7 @@ Motivation: As a junior developer,
 ---
 
 ## 🔧 Technologies & Tools
-- **Languages**: Python, C#
+- **Languages**  : Python, C#
 - **Frontend**   : HTML, CSS, JS
 - **Backend**    : Python, C#
 - **Databases**  : MySQL
