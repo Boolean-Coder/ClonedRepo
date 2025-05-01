@@ -1,7 +1,17 @@
-# This Repo is all about:
-  * Uploading Files per Shell Comands
-  * How to Clone any Repo form your Personal Storage Device to GitHub through Shell Commandy and SSH-PuplicKeys
+# Themen:
+  * Projekte aus Visual Studio Community auf GitHub  veröffentlichen und verwalten.
+  * Nutzen eines SSH-Schlüssel zur sicheren Authentifizierung
+  * Beinhaltet PowerShell-Skripte für die Automatisierung.
 ---
+## Quick-Info:
+🔑 Public und Private Keys
+SSH-Schlüssel bestehen aus 2 Komponenten, den Public-Keys und Private-Keys
+* Diese nutzen starke Passphrasen, um den Private-Key zu schützen.
+* Es wird ein SSH-Agent zur Verwaltung von Keys und sicherer Authentifizierung genutzt
+* Public Key (id_rsa.pub): Kann öffentlich geteilt werden und wird auf GitHub hinterlegt.
+* Private Key (id_rsa): Darf niemals weitergegeben werden! Er dient zur Authentifizierung
+  und muss sicher aufbewahrt bleiben.
+  
 ## Quick-info:
 Motivation: As a junior developer, 
 - I am seeking an employer who can offer a training program for my IHK-certified retraining. 
