@@ -20,7 +20,7 @@ namespace H2CloneRepos
                                     2️) Bestehendes lokales Repository auf GitHub hochladen
                                     0️) Beenden
                                     ");
-                Console.Write("🔹 Eingabe: ");
+                Console.Write("Eingabe:");
                 string choice = Console.ReadLine();
 
                 switch (choice)
@@ -32,11 +32,11 @@ namespace H2CloneRepos
                         UploadExistingRepo();
                         break;
                     case "0":
-                        Console.WriteLine("🚀 Programm wird beendet...");
+                        Console.WriteLine("Programm wird beendet...");
                         exit = true;
                         break;
                     default:
-                        Console.WriteLine("❌ Ungültige Eingabe. Bitte wähle erneut.");
+                        Console.WriteLine("Ungültige Eingabe. Bitte wähle erneut.");
                         break;
                 }
             }
