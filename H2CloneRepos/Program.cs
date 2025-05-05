@@ -64,7 +64,7 @@ namespace H2CloneRepos
 
             if (string.IsNullOrWhiteSpace(repoUrl))
             {
-                Console.WriteLine("❌ Fehler: Die GitHub-URL darf nicht leer sein.");
+                Console.WriteLine("NULL- ERROR: Die GitHub-URL darf nicht leer sein.");
                 return;
             }
 
@@ -82,7 +82,7 @@ namespace H2CloneRepos
 
             if (string.IsNullOrWhiteSpace(repoUrl))
             {
-                Console.WriteLine("Error: Die GitHub-URL darf nicht leer sein.");
+                Console.WriteLine("NULL - Error: Die GitHub-URL darf nicht leer sein.");
                 return;
             }
 
@@ -116,17 +116,17 @@ namespace H2CloneRepos
 
                     if (!string.IsNullOrWhiteSpace(error))
                     {
-                        Console.WriteLine($"❌ Fehler: Das Kommando konnte nicht ausgeführt werden. Grund:\n{error}");
+                        Console.WriteLine($"Ausführ - ERROR: Das Kommando konnte nicht ausgeführt werden. Grund:\n{error}");
                     }
                     else
                     {
-                        Console.WriteLine("✅ Befehl erfolgreich ausgeführt!");
+                        Console.WriteLine("Befehl erfolgreich ausgeführt!");
                     }
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Unexpected Error: {ex.Message}");
+                Console.WriteLine($"Unexpected - Error: {ex.Message}");
             }
         }  
     }
