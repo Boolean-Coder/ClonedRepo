@@ -52,7 +52,7 @@ namespace H2CloneRepos
 
             if (string.IsNullOrWhiteSpace(repoName))
             {
-                Console.WriteLine("❌ Fehler: Der Repository-Name darf nicht leer sein.");
+                Console.WriteLine("Fehler: Der Repository-Name darf nicht leer sein.");
                 return;
             }
 
