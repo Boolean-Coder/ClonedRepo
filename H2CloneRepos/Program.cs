@@ -47,7 +47,7 @@ namespace H2CloneRepos
          */
         static void CreateLocalRepo()
         {
-            Console.Write("📂 Gib den Namen des neuen Repositorys ein: ");
+            Console.Write("Gib den Namen des neuen Repositorys ein: ");
             string repoName = Console.ReadLine();
 
             if (string.IsNullOrWhiteSpace(repoName))
@@ -57,9 +57,9 @@ namespace H2CloneRepos
             }
 
             ExecuteCommand($"mkdir {repoName} && cd {repoName} && git init");
-            Console.WriteLine("\n✅ Lokales Repository wurde erstellt.\n");
+            Console.WriteLine("Lokales Repository wurde erstellt.");
 
-            Console.Write("🔗 Gib die GitHub-URL für das neue Repository ein: ");
+            Console.Write("Gib die GitHub-URL für das neue Repository ein: ");
             string repoUrl = Console.ReadLine();
 
             if (string.IsNullOrWhiteSpace(repoUrl))
@@ -69,7 +69,7 @@ namespace H2CloneRepos
             }
 
             ExecuteCommand($"git remote add origin {repoUrl} && git add . && git commit -m \"Initial commit\" && git push -u origin main");
-            Console.WriteLine("🚀 Repository wurde erfolgreich auf GitHub hochgeladen!");
+            Console.WriteLine(" Repository wurde erfolgreich auf GitHub hochgeladen!");
         }
 
         /** 
@@ -77,17 +77,17 @@ namespace H2CloneRepos
          */
         static void UploadExistingRepo()
         {
-            Console.Write("🔗 Gib die GitHub-URL für das bestehende Repository ein: ");
+            Console.Write("Gib die GitHub-URL für das bestehende Repository ein: ");
             string repoUrl = Console.ReadLine();
 
             if (string.IsNullOrWhiteSpace(repoUrl))
             {
-                Console.WriteLine("❌ Fehler: Die GitHub-URL darf nicht leer sein.");
+                Console.WriteLine("Error: Die GitHub-URL darf nicht leer sein.");
                 return;
             }
 
             ExecuteCommand($"git remote add origin {repoUrl} && git add . && git commit -m \"Update\" && git push -u origin main");
-            Console.WriteLine("🚀 Bestehendes Repository wurde erfolgreich auf GitHub hochgeladen!");
+            Console.WriteLine("Bestehendes Repository wurde erfolgreich auf GitHub hochgeladen!");
         }
 
         /**
@@ -126,8 +126,8 @@ namespace H2CloneRepos
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"❌ Unerwarteter Fehler: {ex.Message}");
+                Console.WriteLine($"Unexpected Error: {ex.Message}");
             }
-        }
+        }  
     }
 }
